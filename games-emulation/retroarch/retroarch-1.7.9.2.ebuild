@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit autotools flag-o-matic meson xdg
+inherit autotools
 
 DESCRIPTION="Cross-platform, sophisticated frontend for the libretro API"
 HOMEPAGE="http://www.libretro.com"
