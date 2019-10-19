@@ -8,6 +8,7 @@ inherit autotools flag-o-matic meson xdg
 DESCRIPTION="Cross-platform, sophisticated frontend for the libretro API"
 HOMEPAGE="http://www.libretro.com"
 SRC_URI="https://github.com/libretro/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}/RetroArch-${PV}"
 
 LICENSE="GPL-3"
 SLOT="0"
