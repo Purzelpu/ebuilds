@@ -1,0 +1,10 @@
+diff --git a/setup.py b/setup.py
+index 592a34c..004912e 100644
+--- a/setup.py
++++ b/setup.py
+@@ -25,4 +25,4 @@ setup(name              = 'Adafruit_GPIO',
+       url               = 'https://github.com/adafruit/Adafruit_Python_GPIO/',
+       install_requires  = requires,
+       test_suite        = 'tests',
+-      packages          = find_packages())
++      packages          = find_packages(exclude=('tests',)))
