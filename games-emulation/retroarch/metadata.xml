@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<!-- Maintainer needed -->
+<longdescription>Cross-platform, sophisticated frontend for the libretro API. Licensed GPLv3.</longdescription>
+</pkgmetadata>
