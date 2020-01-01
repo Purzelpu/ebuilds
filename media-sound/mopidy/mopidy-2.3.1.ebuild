@@ -17,12 +17,13 @@ KEYWORDS="~amd64 ~arm ~x86"
 IUSE="test"
 
 RDEPEND=">=media-libs/gstreamer-1.2.3
-		dev-python/gst-python
+		dev-python/gst-python[${PYTHON_USEDEP}]
 		media-plugins/gst-plugins-meta
 		www-servers/tornado
-		dev-python/pykka"
+		dev-python/pykka[${PYTHON_USEDEP}]"
 
 DEPEND="${RDEPEND}
+	${PYTHON_DEPS}
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	"
 S=${WORKDIR}/Mopidy-${PV}
